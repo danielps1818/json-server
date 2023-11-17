@@ -1,14 +1,11 @@
-[
-  {
-    "id": 1,
-    "title": "Post 1"
-  },
-  {
-    "id": 2,
-    "title": "Post 2"
-  },
-  {
-    "id": 3,
-    "title": "Post 3"
-  }
-]
+{
+  "posts": [
+    { "id": 1, "title": "El legado del Chin" },
+    { "id": 2, "title": "La Chencharnación" },
+    { "id": 3, "title": "Lichando por la Paz" }
+  ],
+  "comments": [
+    { "id": 1, "body": "Me encanta la peli 1", "postId": 1 },
+    { "id": 2, "body": "Ojalá Pedro Sanchez se vaya y Li sea presidente", "postId": 1 }
+  ]
+}
