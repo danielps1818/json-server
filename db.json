@@ -1,11 +1,31 @@
 {
   "posts": [
-    { "id": 1, "title": "El legado del Chin" },
-    { "id": 2, "title": "La Chencharnación" },
-    { "id": 3, "title": "Lichando por la Paz" }
-  ],
-  "comments": [
-    { "id": 1, "body": "Me encanta la peli 1", "postId": 1 },
-    { "id": 2, "body": "Ojalá Pedro Sanchez se vaya y Li sea presidente", "postId": 1 }
+    {
+  "obra": "La magia del Chin-Chen",
+  "fecha": "2023-12-08T18:30:00.000Z",
+  "duracion": 120,
+  "descanso": false,
+  "genero": "Drama",
+  "sala": 3,
+  "completo": false
+    },
+    {
+  "obra": "Al gusto del Chenñor",
+  "fecha": "2023-12-20T21:00:00.000Z",
+  "duracion": 180,
+  "descanso": true,
+  "genero": "Drama",
+  "sala": 3,
+  "completo": false
+    },
+    {
+  "obra": "Bohemian Chansody",
+  "fecha": "2023-12-23T22:20:00.000Z",
+  "duracion": 97,
+  "descanso": false,
+  "genero": "Drama",
+  "sala": 3,
+  "completo": false
+    }
   ]
 }
