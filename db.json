@@ -1,31 +1,1565 @@
 {
-  "posts": [
+  "teatros": [
     {
-  "obra": "La magia del Chin-Chen",
-  "fecha": "2023-12-08T18:30:00.000Z",
-  "duracion": 120,
-  "descanso": false,
-  "genero": "Drama",
-  "sala": 3,
-  "completo": false
+      "nombre": "Teatro Ejemplo1",
+      "capacidad": 1000,
+      "zonas": [
+        {
+          "nombre": "Zona VIP",
+          "num_asientos": 50,
+          "num_filas": 5,
+          "asientos": [
+            {
+              "nombre": "A01",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "A02",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "A03",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "A04",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "A05",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "A06",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "A07",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "A08",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "A09",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "A10",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "B01",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "B02",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "B03",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "B04",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "B05",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "B06",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "B07",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "B08",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "B09",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "B10",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "C01",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "C02",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "C03",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "C04",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "C05",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "C06",
+              "estado": "ocupado",
+              "precio": 50
+            },
+            {
+              "nombre": "C07",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "C08",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "C09",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "C10",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E01",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E02",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E03",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E04",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E05",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E06",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E07",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E08",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E09",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "E10",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F01",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F02",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F03",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F04",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F05",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F06",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F07",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F08",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F09",
+              "estado": "libre",
+              "precio": 50
+            },
+            {
+              "nombre": "F10",
+              "estado": "libre",
+              "precio": 50
+            }
+          ]
+        },
+        {
+          "nombre": "Zona General",
+          "num_asientos": 100,
+          "num_filas": 10,
+          "asientos": [
+            {
+              "nombre": "A01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "A02",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "A03",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "A04",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "A05",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "A06",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "A07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "A08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "A09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "A10",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "B01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "B02",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "B03",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "B04",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "B05",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "B06",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "B07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "B08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "B09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "B10",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "C01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "C02",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "C03",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "C04",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "C05",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "C06",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "C07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "C08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "C09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "C10",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E02",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E03",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E04",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E05",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E06",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "E10",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F02",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F03",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F04",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F05",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F06",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F10",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "G01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "G02",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "G03",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "G04",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "G05",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "G06",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "G07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "G08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "G09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "G10",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "H01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "H02",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "H03",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "H04",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "H05",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "H06",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "H07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "H08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "H09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "H10",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "I01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "I02",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "I03",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "I04",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "I05",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "I06",
+              "estado": "ocupado",
+              "precio": 20
+            },
+            {
+              "nombre": "I07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "I08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "I09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "I10",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J02",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J03",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J04",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J05",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J06",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "J10",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "K01",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "K02",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "K03",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "K04",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "K05",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "K06",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "K07",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "K08",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "K09",
+              "estado": "libre",
+              "precio": 20
+            },
+            {
+              "nombre": "F10",
+              "estado": "libre",
+              "precio": 20
+            }
+          ]
+        }
+      ]
     },
     {
-  "obra": "Al gusto del Chenñor",
-  "fecha": "2023-12-20T21:00:00.000Z",
-  "duracion": 180,
-  "descanso": true,
-  "genero": "Drama",
-  "sala": 3,
-  "completo": false
-    },
-    {
-  "obra": "Bohemian Chansody",
-  "fecha": "2023-12-23T22:20:00.000Z",
-  "duracion": 97,
-  "descanso": false,
-  "genero": "Drama",
-  "sala": 3,
-  "completo": false
+      "nombre": "Teatro Pequeño",
+      "capacidad": 1000,
+      "zonas": [
+        {
+          "nombre": "Zona 1",
+          "num_asientos": 30,
+          "num_filas": 5,
+          "asientos": [
+            {
+              "nombre": "A01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D01",
+              "estado": "libre",
+              "precio": 8
+            },
+            {
+              "nombre": "D02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D06",
+              "estado": "libre",
+              "precio": 5
+            }
+          ]
+        },
+        {
+          "nombre": "Zona 2",
+          "num_asientos": 30,
+          "num_filas": 5,
+          "asientos": [
+            {
+              "nombre": "A01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D01",
+              "estado": "libre",
+              "precio": 8
+            },
+            {
+              "nombre": "D02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D06",
+              "estado": "libre",
+              "precio": 5
+            }
+          ]
+        },
+        {
+          "nombre": "Zona 3",
+          "num_asientos": 30,
+          "num_filas": 5,
+          "asientos": [
+            {
+              "nombre": "A01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D01",
+              "estado": "libre",
+              "precio": 8
+            },
+            {
+              "nombre": "D02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D06",
+              "estado": "libre",
+              "precio": 5
+            }
+          ]
+        },
+        {
+          "nombre": "Zona 4",
+          "num_asientos": 30,
+          "num_filas": 5,
+          "asientos": [
+            {
+              "nombre": "A01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D01",
+              "estado": "libre",
+              "precio": 8
+            },
+            {
+              "nombre": "D02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D06",
+              "estado": "libre",
+              "precio": 5
+            }
+          ]
+        },
+        {
+          "nombre": "Zona 5",
+          "num_asientos": 30,
+          "num_filas": 5,
+          "asientos": [
+            {
+              "nombre": "A01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "A06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "B06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "C06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E01",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "E06",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D01",
+              "estado": "libre",
+              "precio": 8
+            },
+            {
+              "nombre": "D02",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D03",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D04",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D05",
+              "estado": "libre",
+              "precio": 5
+            },
+            {
+              "nombre": "D06",
+              "estado": "libre",
+              "precio": 5
+            }
+          ]
+        }
+      ]
     }
   ]
 }
