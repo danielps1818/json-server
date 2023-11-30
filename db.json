@@ -6,390 +6,407 @@
       "zonas": [
         {
           "nombre": "Zona VIP",
-          "num_asientos": 35,
-          "num_filas": 4,
-          "asientos": [
+          "num_asientos": 48,
+          "precio": 50,
+          "filas": [
             {
-              "nombre": "A01",
-              "estado": "libre",
-              "precio": 50
+              "asientos": [
+                {"A0": true},
+                {"A1": true},
+                {"A2": true},
+                {"A3": true},
+                {"A4": true},
+                {"A5": true}
+              ]
             },
             {
-              "nombre": "A02",
-              "estado": "ocupado",
-              "precio": 50
+              "asientos": [
+                {
+                  "B0": true
+                },
+                {
+                  "B1": true
+                },
+                {
+                  "B2": true
+                },
+                {
+                  "B3": true
+                },
+                {
+                  "B4": true
+                },
+                {
+                  "B5": true
+                }
+              ]
             },
             {
-              "nombre": "A03",
-              "estado": "ocupado",
-              "precio": 50
+              "asientos": [
+                {
+                  "C0": true
+                },
+                {
+                  "C1": true
+                },
+                {
+                  "C2": true
+                },
+                {
+                  "C3": true
+                },
+                {
+                  "C4": true
+                },
+                {
+                  "C5": true
+                }
+              ]
             },
             {
-              "nombre": "A04",
-              "estado": "ocupado",
-              "precio": 50
+              "asientos": [
+                {
+                  "D0": true
+                },
+                {
+                  "D1": true
+                },
+                {
+                  "D2": true
+                },
+                {
+                  "D3": true
+                },
+                {
+                  "D4": true
+                },
+                {
+                  "D5": true
+                }
+              ]
             },
             {
-              "nombre": "A05",
-              "estado": "ocupado",
-              "precio": 50
+              "asientos": [
+                {
+                  "E0": true
+                },
+                {
+                  "E1": true
+                },
+                {
+                  "E2": true
+                },
+                {
+                  "E3": true
+                },
+                {
+                  "E4": true
+                },
+                {
+                  "E5": true
+                }
+              ]
             },
             {
-              "nombre": "A06",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "A07",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "A08",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "A09",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "A10",
-              "estado": "ocupado",
-              "precio": 50
-            },
-            {
-              "nombre": "B01",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "B02",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "B03",
-              "estado": "ocupado",
-              "precio": 50
-            },
-            {
-              "nombre": "B04",
-              "estado": "ocupado",
-              "precio": 50
-            },
-            {
-              "nombre": "B05",
-              "estado": "ocupado",
-              "precio": 50
-            },
-            {
-              "nombre": "B06",
-              "estado": "ocupado",
-              "precio": 50
-            },
-            {
-              "nombre": "B07",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "B08",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "B09",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "B10",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "C01",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "C02",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "C03",
-              "estado": "ocupado",
-              "precio": 50
-            },
-            {
-              "nombre": "C04",
-              "estado": "ocupado",
-              "precio": 50
-            },
-            {
-              "nombre": "C05",
-              "estado": "ocupado",
-              "precio": 50
-            },
-            {
-              "nombre": "C06",
-              "estado": "ocupado",
-              "precio": 50
-            },
-            {
-              "nombre": "C07",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "C08",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "C09",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "C10",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "E01",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "E02",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "E03",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "E04",
-              "estado": "libre",
-              "precio": 50
-            },
-            {
-              "nombre": "E05",
-              "estado": "libre",
-              "precio": 50
+              "asientos": [
+                {
+                  "F0": true
+                },
+                {
+                  "F1": true
+                },
+                {
+                  "F2": true
+                },
+                {
+                  "F3": true
+                },
+                {
+                  "F4": true
+                },
+                {
+                  "F5": true
+                }
+              ]
             }
           ]
         },
         {
           "nombre": "Zona General",
           "num_asientos": 50,
-          "num_filas": 10,
-          "asientos": [
+          "precio": 20,
+          "filas": [
             {
-              "nombre": "A01",
-              "estado": "libre",
-              "precio": 20
+              "asientos": [
+                {
+                  "A0": true
+                },
+                {
+                  "A1": true
+                },
+                {
+                  "A2": true
+                },
+                {
+                  "A3": true
+                },
+                {
+                  "A4": true
+                },
+                {
+                  "A5": true
+                },
+                {
+                  "A6": true
+                },
+                {
+                  "A7": true
+                },
+                {
+                  "A8": true
+                },
+                {
+                  "A9": true
+                }
+              ]
             },
             {
-              "nombre": "A02",
-              "estado": "libre",
-              "precio": 20
+              "asientos": [
+                {
+                  "B0": true
+                },
+                {
+                  "B1": true
+                },
+                {
+                  "B2": true
+                },
+                {
+                  "B3": true
+                },
+                {
+                  "B4": true
+                },
+                {
+                  "B5": true
+                },
+                {
+                  "B6": true
+                },
+                {
+                  "B7": true
+                },
+                {
+                  "B8": true
+                },
+                {
+                  "B9": true
+                }
+              ]
             },
             {
-              "nombre": "A03",
-              "estado": "ocupado",
-              "precio": 20
+              "asientos": [
+                {
+                  "C0": true
+                },
+                {
+                  "C1": true
+                },
+                {
+                  "C2": true
+                },
+                {
+                  "C3": true
+                },
+                {
+                  "C4": true
+                },
+                {
+                  "C5": true
+                },
+                {
+                  "C6": true
+                },
+                {
+                  "C7": true
+                },
+                {
+                  "C8": true
+                },
+                {
+                  "C9": true
+                }
+              ]
             },
             {
-              "nombre": "A04",
-              "estado": "libre",
-              "precio": 20
+              "asientos": [
+                {
+                  "D0": true
+                },
+                {
+                  "D1": true
+                },
+                {
+                  "D2": true
+                },
+                {
+                  "D3": true
+                },
+                {
+                  "D4": true
+                },
+                {
+                  "D5": true
+                },
+                {
+                  "D6": true
+                },
+                {
+                  "D7": true
+                },
+                {
+                  "D8": true
+                },
+                {
+                  "D9": true
+                }
+              ]
             },
             {
-              "nombre": "A05",
-              "estado": "libre",
-              "precio": 20
+              "asientos": [
+                {
+                  "E0": true
+                },
+                {
+                  "E1": true
+                },
+                {
+                  "E2": true
+                },
+                {
+                  "E3": true
+                },
+                {
+                  "E4": true
+                },
+                {
+                  "E5": true
+                },
+                {
+                  "E6": true
+                },
+                {
+                  "E7": true
+                },
+                {
+                  "E8": true
+                },
+                {
+                  "E9": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "nombre": "Zona Gallinero",
+          "num_asientos": 30,
+          "precio": 20,
+          "filas": [
+            {
+              "asientos": [
+                {
+                  "A0": true
+                },
+                {
+                  "A1": true
+                },
+                {
+                  "A2": true
+                },
+                {
+                  "A3": true
+                },
+                {
+                  "A4": true
+                }
+              ]
             },
             {
-              "nombre": "A06",
-              "estado": "libre",
-              "precio": 20
+              "asientos": [
+                {
+                  "B0": true
+                },
+                {
+                  "B1": true
+                },
+                {
+                  "B2": true
+                },
+                {
+                  "B3": true
+                },
+                {
+                  "B4": true
+                }
+              ]
             },
             {
-              "nombre": "A07",
-              "estado": "libre",
-              "precio": 20
+              "asientos": [
+                {
+                  "C0": true
+                },
+                {
+                  "C1": true
+                },
+                {
+                  "C2": true
+                },
+                {
+                  "C3": true
+                },
+                {
+                  "C4": true
+                }
+              ]
             },
             {
-              "nombre": "A08",
-              "estado": "libre",
-              "precio": 20
+              "asientos": [
+                {
+                  "D0": true
+                },
+                {
+                  "D1": true
+                },
+                {
+                  "D2": true
+                },
+                {
+                  "D3": true
+                },
+                {
+                  "D4": true
+                }
+              ]
             },
             {
-              "nombre": "A09",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "A10",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B01",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B02",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B03",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B04",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B05",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B06",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B07",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B08",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B09",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "B10",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C01",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C02",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C03",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C04",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C05",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C06",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C07",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C08",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C09",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "C10",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E01",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E02",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E03",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E04",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E05",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E06",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E07",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E08",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E09",
-              "estado": "libre",
-              "precio": 20
-            },
-            {
-              "nombre": "E10",
-              "estado": "libre",
-              "precio": 20
+              "asientos": [
+                {
+                  "E0": true
+                },
+                {
+                  "E1": true
+                },
+                {
+                  "E2": true
+                },
+                {
+                  "E3": true
+                },
+                {
+                  "E4": true
+                }
+              ]
             }
           ]
         }
